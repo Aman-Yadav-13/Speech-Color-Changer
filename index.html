@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Colour Changer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+
+        <h1>Speech Colour Changer</h1>
+
+        <div id="container">
+
+            <div id="container-left">
+
+                <span id="content">
+                    <p>
+                        This app will take a colour as an input from speech recognition 
+                        system and process it using web kit api and then display the result.
+                    </p>
+
+                    <p>To see thing in action just click the button present below and see the magic.</p>
+                    
+                </span>
+
+                <button id="listen">Start Listening</button>
+
+                <label for="color-list">Color List</label>
+
+                <select name="color-list" id="color-list">
+
+                    <option>Red</option>
+                    <option>Blue</option>
+                    <option>Green</option>
+                    <option>Yellow</option>
+
+                </select>
+
+            </div>
+
+            <div id="container-right">
+
+                <img class="pattern" src="images/pattern.jpg" alt="Imgage not found...">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

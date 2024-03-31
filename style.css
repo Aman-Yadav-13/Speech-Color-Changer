@@ -1,0 +1,35 @@
+#main{
+    background-color: whitesmoke;
+    margin: 8% 10% 0;
+    padding: 1%;
+}
+
+h1{
+    width: fit-content;
+    margin: auto;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 40% 35%;
+    column-gap: 15%;
+    padding: 3% 0 0;
+    margin: 0 5% 2%;
+}
+
+#listen{
+    margin-top: 50%;
+    margin-right: 30%;
+    margin-left: 10%;
+}
+
+#container-right{
+    background-color: whitesmoke;
+    width: 120%;
+}
+
+.pattern{
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
